@@ -1,7 +1,7 @@
 ## Who's that pokemon?
 A pokedex created using the PokeAPI to search for information about your favourite pokemon.
 
-Click [here](https://jhaymilana.github.io/guessing-game/) to test.
+Click [here](https://jhaymilana.github.io/whos-that-pokemon/) to test.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
