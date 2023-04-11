@@ -33,8 +33,8 @@ function getPokemon(e) {
       </div>
       <div class="pokemonInfos center">
         <h1>${capitalizeFirstLetter(data.name)}</h3>
-        <p>Weight: ${data.weight}</p>
-        <p>Height: ${data.height}</p>
+        <p>Weight: ${data.weight / 10}kg</p>
+        <p>Height: ${data.height / 10}m</p>
       </div>`;
     })
     .catch((error) => {
