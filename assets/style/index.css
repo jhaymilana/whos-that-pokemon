@@ -1,0 +1,79 @@
+@import url('./reset.css');
+
+.container {
+  margin-inline: auto;
+  width: min(100% - 30px, 1080px);
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Variables
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+:root {
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-white: #E4E6EB;
+  --app-text-gray: #B0B3B8;
+  --app-hover: #3A3B3C;
+  --app-background-color: #12191A;
+  --app-header-footer: #242526;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* HTML
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body {
+  background-color: var(--app-background-color);
+}
+
+.heading {
+  margin-top: 100px;
+  color: #fff;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.searchBox {
+  margin-top: 35px;
+}
+
+input {
+  background-color: var(--app-text-gray);
+  margin: 0 10px 15px 15px;
+  padding: 5px 5px 5px 10px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--app-blue);
+  color: #fff;
+  padding: 10px;
+  height: 40px;
+  width: 90px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--app-blue-hover);
+}
+
+.pokemonBox {
+  margin-top: 10px;
+  color: var(--app-white);
+}
